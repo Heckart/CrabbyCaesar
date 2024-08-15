@@ -1,0 +1,21 @@
+[package]
+name = "CaesarCipher"
+version = "0.1.0"
+authors = ["Ethan Heckart <heckart@proton.me>"]
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "program"
+path = "src/main.rs"
+
+[[bin]]
+name = "unit_test_01"
+path = "unit_tests/unit_test_01.rs"
+
+[[bin]]
+name = "unit_test_02"
+path = "unit_tests/unit_test_02.rs"
+
+[dependencies]
